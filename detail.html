@@ -5,16 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail</title>
+    <style>
+        .header img{
+            height: 60px;
+            width: 60px;
+        }
+        .content img{
+            width: 300px;
+            height: 300px;
+        }
+        .footer img{
+            width: 22px;
+            height: 20px;
+        }
+    </style>
 </head>
 <body>
     <div>
         <div class="header">
-            <img src="assests/images/logo.png" width="150" height="100" alt="logo"><br/>
+            <img src="assests/images/logo.png"  alt="logo"><br/>
             <a href="login.html">Login</a>
         </div>
         <div class="content">
             <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt=""><br/>
-            <a href="">Book Now</a>
+            <label>Adress</label>
+            <input type="text" name="address"><br>
+            <label>Name</label>
+            <input type="text" name="name"><br>
+            <label>From Date</label>
+            <input type="date" name="from-date"><br>
+            <label>To Date</label>
+            <input type="date" name="to-date"><br>
+            <label>Total</label>
+            <input type="text" name="total"><br>
+            <input type="submit" value="Submit">
+
             <h1>Radisson blue</h1>
             <p>Rating</p>
             <p>5 Star</p>
